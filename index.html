@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Метрика</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="shortcut icon" href="../макет дизайн студии/resources/favicon/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style/style3.css" />
+    
+  </head>
+  <body>
+    
+    <header>
+        <div class="menu">
+        <img class="menu__logo"
+         src="resources/logo.png"
+         alt="логотип студии метрика">
+         <nav class="nav">
+            <a class="nav__link" href="#about-us">О НАС</a>
+            <a class="nav__link"href="#project">ПРОЕКТЫ</a>
+            <a class="nav__link"href="#services">УСЛУГИ</a>
+            <a class="nav__link"href="#contact">КОНТАКТЫ</a>
+         </nav>
+        </div>
+    </header>
+    
+
+    <main>
+       <section>
+        <h1>Современные и стильные <br> интерьеры для комфортной жизни</h1>
+     
+        <div class="intro-image">
+            <p class="intro-image__text">
+              Мы - команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
+          </div>  
+       </section> 
+
+    <section>
+        <h2 id="about-us">О НАС</h2>
+        <p class="about-us__text">
+          Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
+        </p>
+        
+        <a class="about-us__btn" href="#services">Посмотреть услуги</a>
+    </section>
+  
+    <section class="section-long">
+        <h2 id="project">ПРОЕКТЫ</h2>
+        
+      <ul class="projects">
+<li class="project__item">
+    <picture>
+      <source media="(max-width:500px )" 
+      srcset="resources/mobile/right__mobile.png"
+      />
+      <source media="(max-width:1199px )" 
+      srcset="resources/table/jk__pravoberejnyi.png"
+      />
+      <img
+      class="project__item__img"
+      src="resources/jk-pravoberejnyi.png"
+      alt="ЖК правобережный"
+        />
+    </picture>
+  <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+  <a class="project__item__link" href="#">Подробнее →</a>
+</li>
+
+<li class="project__item">
+    <picture>
+      <source 
+      media="(max-width:500px )" 
+      srcset="resources/mobile/park__mobile.png"
+      />
+      <source 
+      media="(max-width:1199px )" 
+      srcset="resources/table/jk__norveg.png"
+      />
+      <img
+      class="project__item__img"
+      src="resources/jk-norveg.png"
+      alt="ЖК норвеcжский парк"
+        />
+    </picture>
+  <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+  <a class="project__item__link" href="#">Подробнее →</a>
+</li>
+
+<li class="project__item">
+    <picture>
+      <source media="(max-width:500px )" 
+      srcset="resources/mobile/ozera__mobile.png"
+      />
+      <source media="(max-width:1199px )" 
+      srcset="resources/table/jk__ozera-table.png"
+      />
+      <img
+      class="project__item__img"
+      src="resources/jk-ozera.png"
+      alt="ЖК правобережный"
+        />
+    </picture>
+  <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+  <a class="project__item__link" href="#">Подробнее →</a>
+</li>
+
+      </ul> 
+      <a class="full-width-button" href="#">Смотреть все проекты</a>
+    </section>
+
+    <div class="container-black">
+
+<section class="section-long">
+  
+    <h2 id="services">УСЛУГИ</h2>
+    <ul class="services">
+        <li class="service">
+<picture>
+  <source media="(max-width:768px )" 
+  srcset="resouces/mobile/planirovanie__mobile.png">
+</picture>
+  <img class="service__img"
+  src="resources/services/planning.png"
+  alt="карандаш на чертежах">
+
+<h3>Планировочное решение</h3>
+<p class="service__text">от 2500₽/м²</p>
+        </li>
+
+        <li class="service">
+<picture>
+  <source media="(max-width:768px )" 
+  srcset="resouces/mobile/project__mobile.png">
+</picture>
+  <img class="service__img"
+  src="resources/services/disigne.png"
+  alt="палитра цветов">
+
+<h3>Дизайн-проект</h3>
+<p class="service__text">от 3000₽/м²</p>
+        </li>
+
+        <li class="service">
+<picture>
+  <source media="(max-width:768px )" 
+  srcset="resouces/mobile/autor__mobile.png">
+</picture>
+  <img class="service__img"
+  src="resources/services/autor.png"
+  alt="написание чертежа">
+
+<h3>Авторский надзор</h3>
+<p class="service__text">от 30 000₽/мес</p>
+        </li>
+
+        <li class="service">
+            <picture>
+              <source media="(max-width:768px )" 
+  srcset="resouces/mobile/complectaciya__mobile.png">
+</picture>
+              <img class="service__img"
+              src="resources/services/comlection.png"÷
+              alt="ряды с палетами">
+            
+            <h3>Комплектация</h3>
+            <p class="service__text">5% от стоимости</p>
+        </li>
+    </ul>
+
+    <a class="full-width-button full-width-button_inverted" href="#">Заказать услугу</a>
+
+</section>
+</div>
+
+<section  class="section-long">
+  <h2>ОТЗЫВЫ</h2>
+
+    
+<div class="row">
+  <div class="col">
+<h4 class="reviews__title">Ксения, проект 65 кв.м.</h4>
+<p class="reviews__text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br> <br> Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!</p>
+  </div>
+
+  <div class="col">
+    <h4 class="reviews__title">Регина, проект 89 кв.м.</h4>
+<p class="reviews__text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера! <br> <br> Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!</p>
+</div>
+
+  <div class="col">
+<h4 class="reviews__title">Яна, проект 120 кв.м.</h4>
+<p class="reviews__text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим. <br> <br> В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!</p>
+  
+</div>
+  </div>
+
+</section>
+
+    <section class="section__full section__nopad">
+      
+      <div class="gallery">
+        <div class="container">
+            <div class="gallery__title-wrapper">
+              <p class="gallery__title">галерея проектов</p>
+            </div>
+        
+        <div class="gallery__slides">
+          <div class="gallery__slide  gallery__slide_active">
+            <p class="gallery__text">Проект Двухкомнтаной <br>квартиры в ЖК Лесной Пейзаж</p>
+            <picture>
+              <source 
+              media="(max-width:500px )" 
+              srcset="resources/mobile/gallery__mobile.png"
+              />
+              <source 
+              media="(max-width:1199px )" 
+              srcset="resources/gallery/peizaj.png"
+              />
+              <img
+              class="gallery__image" src="resources/gallery/peizaj.png"
+              alt="офто кровати в спальне">
+              
+            </picture>
+
+          </div>
+
+          <div class="gallery__slide">
+            <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+            <img class="gallery__image" src="resources/gallery/jk-lighthouse.png" alt="желтое кресло в гостинной">
+          </div>
+          <div class="gallery__slide">
+            <p class="gallery__text">Визуализация кухни-гостиной <br> в частном доме</p>
+            <img class="gallery__image" src="resources/gallery/kitchen-living room.png" 
+            alt="кухня-гостинная с мебелью">
+          </div>
+          <div class="gallery__slide">
+            <p class="gallery__text">Проект кухни в скандинавском стиле <br> для ЖК Северный Ветер</p>
+            <img class="gallery__image" src="resources/gallery/jk-north.png" 
+            alt="кухня с барной стойкой">
+          </div>
+
+            <div class="gallery__controls">
+              <button class="gallery__control-prev">
+                <img src="resources/gallery/arrow-prew.png" alt="">
+              </button>
+              <button class="gallery__control-next"><img 
+                src="resources/gallery/arrow-next.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        </div>
+
+    </section>
+
+<section class="section-long" >
+
+        <h2 id="contact">КОНТАКТЫ</h2>
+
+        <div class="contacts__block">
+          <a class="contacts__phone" href="tel:+79358954535"
+          >+7 935 895-45-35</a>
+
+          <div class="contacts__email">
+          <a  class="contacts__link"
+          target="_blank"
+           href="https://t.me/ivan_andreeevich"
+           >ivan_andreeevich</a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="section-footer">
+        
+        <nav class="footer__nav">
+            <a href="#about-us">О НАС</a>
+            <a href="#project">ПРОЕКТЫ</a>
+            <a href="#services">УСЛУГИ</a>
+            <a href="#contact">КОНТАКТЫ</a>
+        </nav>
+    
+                <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+    </footer>
+    </div>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>
